@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pablo Silva | Portfólio</title>
+<link rel="icon" href="./img/AreYou.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body class="dark">
+
+<header data-aos="fade-down">
+<nav class="navbar">
+  <div class="logo">PabloO<span>Dev</span></div>
+  <ul class="nav-links">
+    <li><a href="#hero">Início</a></li>
+    <li><a href="#about">Sobre</a></li>
+    <li><a href="#projects">Projetos</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contato</a></li>
+  </ul>
+  <div class="toggle-theme">
+    <input type="checkbox" id="themeToggle">
+    <label for="themeToggle">☀️ / 🌙</label>
+  </div>
+  <div class="burger">
+    <div></div><div></div><div></div>
+  </div>
+</nav>
+</header>
+
+<section id="hero" class="hero" data-aos="fade-right">
+  <div class="hero-text">
+    <h1>👋 Pablo Antônio Mascena Da Silva</h1>
+    <p>Backend Developer | Sistemas | Cibersegurança</p>
+    <div class="social-links">
+      <a href="https://github.com/silva730" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://wa.me/5511933387059"><i class="fab fa-whatsapp fa-2x"></i></a>
+      <a href="mailto:pabloantoniomascena@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+    </div>
+  </div>
+  <div class="hero-img">
+    <img src="./img/Profile.png" alt="Foto de Pablo" class="profile" data-aos="fade-left">
+  </div>
+</section>
+
+<section class="music" data-aos="fade-up">
+  <div class="music-info">
+    <div class="music-cover-container">
+      <img id="musicCover" src="./img/music_cover.png" alt="Capa da música">
+    </div>
+    <p style="color: white;">"I Thought I Saw Your Face Today" - She & Him - I like that..
+        <br>
+        Toque para ouvir! 🎵
+    </p>
+    <button id="musicBtn" class="music-btn"><i class="fas fa-play"></i></button>
+    <audio id="audio" src="./audio/isawtoday.mp3"></audio>
+  </div>
+</section>
+
+<section id="about" class="about" data-aos="fade-right">
+  <h2>😄 Sobre Mim</h2>
+  <p>
+    Tenho 14 anos e sou apaixonado por tecnologia, especializado em desenvolvimento backend e dedicado a criar soluções robustas e eficientes.
+    Estudo constantemente cibersegurança e hacking ético, buscando sempre práticas seguras e inovadoras. Usuário Linux, com mentalidade analítica, foco em aprendizado contínuo e comprometimento com qualidade de código 👨‍💻💻.
+  </p>
+</section>
+
+<section id="projects" class="projects" data-aos="fade-up">
+  <h2>Projetos</h2>
+  <p class="note">
+    Observação: Os projetos apresentados nesta seção consistem em demonstrações estáticas. Para acesso às versões completas, com código-fonte e funcionalidades integrais, visite o meu repositório no GitHub.
+  </p>
+  <div class="project-cards">
+    <div class="card" data-aos="fade-up">
+      <img src="projects/todo.png" alt="ToDoList">
+      <h3>ToDoList</h3>
+      <p>Aplicativo de tarefas simples, funcional e organizado. Permite adicionar, editar e excluir tarefas com interface amigável. Backend disponível no GitHub.</p>
+      <a href="https://silva730.github.io/ToDoList/" target="_blank">Ver projeto</a>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <img src="projects/clima.png" alt="SiteEstaticTempo">
+      <h3>Site clima tempo</h3>
+      <p>Site estático com informações de tempo e estilo minimalista. Consome API de clima e backend disponível no GitHub.</p>
+      <a href="https://silva730.github.io/SiteEstaticTempo" target="_blank">Ver projeto</a>
+    </div>
+    <div class="card" data-aos="fade-up">
+      <img src="projects/senha.png" alt="SiteDemo">
+      <h3>PasswordGenerator</h3>
+      <p>Gerador de senhas FORTES com estilo futurista. Permite personalizar comprimento e tipos de caracteres. Backend disponível no GitHub.</p>
+      <a href="https://silva730.github.io/SiteDemo/" target="_blank">Ver projeto</a>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills" data-aos="fade-up">
+  <h2>Habilidades</h2>
+  <div class="skill-list">
+    <span>Node.js</span>
+    <span>TypeScript</span>
+    <span>JavaScript</span>
+    <span>Express</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Python</span>
+    <span>Cibersegurança</span>
+    <span>Hacking Ético</span>
+    <span>Linux OS</span>
+  </div>
+</section>
+
+<section id="contact" class="contact" data-aos="fade-up">
+  <h2>Contato</h2>
+  <div class="contact-box">
+    <a href="mailto:pabloantoniomascena@gmail.com" class="contact-item"><i class="fas fa-envelope"></i> pabloantoniomascena@gmail.com</a>
+    <a href="https://wa.me/5511933387059" class="contact-item"><i class="fab fa-whatsapp"></i> +55 11 93338-7059</a>
+    <a href="https://github.com/silva730" target="_blank" class="contact-item"><i class="fab fa-github"></i> github.com/silva730</a>
+    <a href="https://instagram.com/silvablo" target="_blank" class="contact-item"><i class="fab fa-instagram"></i> IG: silvablo</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Desenvolvido por Pablo Antônio Mascena Da Silva | 2025 | Portfólio</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+<script>
+  AOS.init({duration:1000,easing:'ease-in-out',once:true});
+</script>
+</body>
+</html>
+
